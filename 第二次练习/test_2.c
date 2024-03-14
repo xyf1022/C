@@ -42,33 +42,55 @@
 //
 //
 //}
-int Max(int x, int y)
-{
-	if (x > y)
-		return x;
-	else
-		return y;
-
-}
-
-
-
-
-
+//int Max(int x, int y)
+//{
+//	if (x > y)
+//		return x;
+//	else
+//		return y;
+//
+//}
+//
+//
+//
+//
+//
+//int main() {
+//	int a = 0;
+//
+//	int b = 0;
+//
+//	scanf("%d%d",&a,&b);
+//
+//	int r = Max(a,b);
+//
+//	printf("the max nummber is %d\n",r);
+//	
+//	
+//
+//
+//
+//	return 0;
+//}
+//int main() {
+//
+//	int a = 6;
+//	
+//	int b = a++;
+//	 printf("%d\n",b);
+//	 printf("%d\n", a);
+//
+//	return 0;
+//}
+//求两数之和
 int main() {
-	int a = 0;
+	int num1 = 0;
+	int num2 = 0;
 
-	int b = 0;
-
-	scanf("%d%d",&a,&b);
-
-	int r = Max(a,b);
-
-	printf("the max nummber is %d\n",r);
-	
-	
-
-
+	scanf("%d%d", &num1, &num2);
+	 
+	int answer = num1 + num2;
+	printf("%d\n",answer);
 
 	return 0;
 }
